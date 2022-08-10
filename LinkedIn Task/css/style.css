@@ -1,0 +1,635 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #F3F2EF;
+}
+.marginMainpage{
+    margin-top: 5rem;
+}
+/* Nav Style */
+.inputWidth {
+    display: block;
+    width: 220px;
+    color: #212529;
+    background-color: #EEF3F8;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    border: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    padding-left: 30px;
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+
+}
+
+.inputWidth:focus {
+    width: 300px;
+    transition: 1s;
+}
+
+.input-group {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    font-weight: 900;
+}
+
+.border-right {
+    padding-right: 10px;
+    border-right: 1px solid #EBEBEB;
+}
+
+.avatar-size {
+    border-radius: 20px;
+}
+
+.navText {
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+}
+.alignNavigations{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.btn-menu-dropdown:focus{
+border: none;
+}
+.dropdown-user{
+    font-size: 12px;
+    color: #A4A4A4;
+}
+/* left Side Section */
+.avatar-clip {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url('../assets/avatar.JPEG') center center no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+.centerPosition {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-title,.card-title-drop{
+    font-size: 17px;
+}
+
+.card-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.card-sub-text {
+    color: #A4A4A4;
+    margin-top: 4px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.countColor {
+    color: blue;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-text-left {
+    color: #A4A4A4;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-text-left-bottom {
+    color: #A4A4A4;
+    font-size: 12px;
+}
+
+.card-text-height {
+    line-height: 1.9em;
+}
+
+.hover-bg:hover {
+    cursor: pointer;
+    background-color: rgb(240, 236, 236)
+}
+
+.premium-text {
+    font-size: 13px;
+    text-decoration: underline;
+}
+.premium-text-user{
+    font-size: 16px; 
+    color: rgb(150,150,149);
+}
+.premium-text:hover {
+    color: blue;
+    cursor: pointer;
+}
+.premium-text-user:hover {
+    color: blue;
+    cursor: pointer;
+}
+.user-link{
+    color: #9B9B9A;
+    font-size: 15px;
+    cursor: pointer;
+}
+.user-link:hover{
+    text-decoration: underline;
+}
+.myItemText {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card-radius {
+    border-radius: 10px;
+}
+
+.discoverText {
+    color: #A4A4A4;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hover-bg-radius:hover {
+    cursor: pointer;
+    background-color: rgb(240, 236, 236);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* center card */
+.showCard-btn:focus{
+border: none;
+}
+.inputSize {
+    border-radius: 50px;
+    height: 45px;
+    background-color: white !important;
+}
+
+.inputSize:hover {
+    cursor: pointer;
+    background-color: rgb(240, 236, 236) !important;
+}
+
+.avatar-clip-post {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url('../assets/avatar.JPEG') center center no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 55px;
+}
+
+.btn-hover:hover {
+    border: none;
+    background-color: rgb(240, 236, 236);
+}
+
+.btn-accordion {
+    border: none;
+    background-color: rgb(240, 236, 236);
+    font-size: 14px;
+}
+
+.btn-hover {
+    border: none;
+}
+
+.lines {
+    width: 100%;
+    text-align: end;
+    border-bottom: 1px solid #BFBEBB;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.lines span {
+    background: #F3F2EF;
+    padding: 0 10px;
+}
+
+.sortText {
+    font-size: 13px;
+    color: #A4A4A4;
+}
+
+.avatar-clip-swipe {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url('../assets/user.jpg') center center no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.avatar-clip-swipe-02 {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url('../assets/unknown03.jpg') center center no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.avatar-clip-swipe-03 {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url('../assets/unknown03.jpg') center center no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.avatar-clip-comment {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url('../assets/unknown.jpg') center center no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.avatar-clip-comment02 {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url('../assets/unknow02.jpg') center center no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.userName,
+.likeText {
+    font-size: 12px;
+}
+
+.userName:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.comments {
+    font-size: 13px;
+    color: #A4A4A4;
+}
+
+.followText {
+    font-size: 16px;
+}
+
+.banner {
+    background: url('../assets/javaScript.gif') center center no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.banner-02 {
+    background: url('../assets/crypto.gif') center center no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.banner-03 {
+    background: url('../assets/car-gaming.jpg') center center no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+ul.avatars {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 0px 7px 0px 0px;
+    flex-direction: row-reverse;
+}
+
+li.avatars__item {
+    height: 30px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    width: 21px;
+}
+
+img.avatars__img,
+span.avatars__initials,
+span.avatars__others {
+    background-color: #d8d8d9;
+    border-radius: 100px 100px 100px 100px;
+    color: #ffffff;
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    height: 20px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 2px;
+    width: 20px;
+}
+
+span.avatars__others {
+    background-color: #1e8fe1;
+}
+
+.text-likes {
+    font-size: 13px;
+    color: #A4A4A4;
+}
+
+.text-likes:hover {
+    color: #1e8fe1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.centerCardSize::-webkit-scrollbar {
+    display: none;
+}
+
+.searcBox {
+    padding-left: 25px;
+    width: 0
+}
+
+.searchIconSm {
+    position: relative;
+    right: -25px;
+    z-index: 2
+}
+
+.dropdown-content {
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-menu[data-bs-popper]{
+    left: auto;
+    right: -206%;
+    top: 150%;
+  }
+  .dropdown-custom{
+    width: 250px;
+  }
+  .dropdown-user-custom-sm{
+    width: 220px;
+  }
+  .customDropdown-sm[data-bs-popper]{
+    right: -11%; 
+  }
+  .dropdown-custom{
+    -webkit-box-shadow: -1px 3px 12px 0px rgb(203,202,200);
+-moz-box-shadow: -1px 3px 12px 0px rgb(203,202,200);
+box-shadow: -1px 3px 12px 0px rgb(203,202,200);
+border: none;
+  }
+  .sharePostButton{
+    justify-content: space-evenly;
+  }
+  /* Message  */
+  .info{
+    text-align:center;
+    margin-top:30px;
+    color:#3333;
+    padding:10px;
+    position:relative;
+  }
+  .window{
+    background:#fff;
+    max-width:250px;
+    height: 550px;
+    border-radius:8px 8px 0px 0px;
+    box-shadow:0px 0px 5px 1px #3333;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:16.5vh;
+    overflow:hidden;
+    position:fixed;
+    right:5px;
+    bottom:0px;
+    transition:all 0.2s;
+    text-align:center;
+    background-image:url("https://beaconforce.com/wp-content/uploads/2019/02/Social-Interaction.png");
+    background-size:100px;
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-position:50% 99px;
+  }
+  #check{
+    display:none;
+  }
+  #check:checked + .window{
+    bottom:-505px;
+  }
+  .header-part{
+    max-width:100%;
+    height:45px;
+    transition:all 0.3s;
+    padding:0px 5px;
+  }
+  .header-part:hover{
+    background:#f5f7fa;
+    cursor:pointer;
+  }
+  .profile{
+    display:flex;
+    align-items:center;
+    user-select:none;
+  }
+  .profile a{
+    font-size:14px;
+    margin-left:7px;
+  }
+  .online{
+    width:8px;
+    height:8px;
+    position:absolute;
+    border:2px solid #fff;
+    left:30px;
+    top:27px;
+    border-radius:50%;
+    background:green;
+  }
+  .pp{
+    margin-left:5px;
+    width:30px;
+    border-radius:50%;
+  }
+  .icons p{
+    font-weight:bold;
+    margin-right:15px;
+    border-radius:50%;
+    transition-duration:0.3s;
+    transform:rotate(-90deg);
+  }
+  .search-bar{
+    outline:none;
+    width:75%;
+    background-color:#eef3f8;
+    background-image:url("https://cdn1.iconfinder.com/data/icons/jumpicon-basic-ui-line-1/32/-_Magnifier-Search-Zoom--512.png");
+    background-size:20px;
+    background-position:left center;
+    background-position-x:5px;
+    padding:0px 0px 0px 30px;
+    background-repeat:no-repeat;
+    border-radius:4px;
+    height:25px;
+    margin:10px 0px;
+    border:2px solid transparent;
+  }
+  .search-bar:hover{
+    border:2px solid #363636;
+  }
+  .connect{
+    text-decoration:none;
+    font-size:16px;
+    color:#1d72c7;
+    padding:10px;
+    border-radius:5px;
+    margin-top:90px;
+    display:inline-block;
+  }
+  .connect:hover{
+    background:#d7ecfc;
+  }
+/* Navbar Responsive */
+@media (min-width: 1025px) and (max-width:2400px) {
+    .justify-navbar {
+        justify-content: space-between !important;
+    }
+    .showIconOnly{
+        display: none;
+    }
+    .padding-large-screen{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media screen and (min-width:0px) and (max-width:576px) {
+    .sharePostButton{
+        flex-wrap: wrap;
+      }  
+      .row>*{
+        padding-right:0px !important;
+        padding-left: 0px !important;
+    } 
+}
+@media (min-width:0px) and (max-width:1023px) {
+    .navText{
+        display: none;
+    }
+    .navbar-expand .navbar-nav .lg-nav {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+@media (min-width:0px) and (max-width:320px) {
+    .navbar-expand .navbar-nav .lg-nav{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+@media (min-width:321px) and (max-width:376px) {
+    .navbar-expand .navbar-nav .lg-nav {
+        padding-left: 1.2rem !important;
+        padding-right: 1.2rem !important;
+    }
+}
+@media (min-width:377px) and (max-width:426px) {
+    .navbar-expand .navbar-nav .lg-nav {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .navText{
+        display: none;
+    }
+    .navbar-expand .navbar-nav .lg-nav {
+        padding-left: 1.7rem !important;
+        padding-right: 1.7rem !important;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .navbar-expand .navbar-nav .lg-nav {
+        padding-left: 1.1rem !important;
+        padding-right: 1.1rem !important;
+    }
+}
+@media screen and (max-width:1024px) {
+    .showfullInput{
+        display: none;
+    }  
+}
+/* card responsive */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .leftCardSize {
+        flex: 0 0 auto;
+        width: 30%;
+    }
+
+    .centerCardSize {
+        flex: 0 0 auto;
+        width: 70%;
+    }
+
+    .rightSideCard {
+        display: none;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:2400px) {
+    .centerCardSize {
+        height: 800px;
+        overflow-y: scroll;
+    }
+    .leftCardSize {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+    .centerCardSize {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .rightSideCard {
+        flex: 0 0 auto;
+        width: 30%;
+    }
+
+    .avatar-clip {
+        height: 60px;
+        width: 60px;
+    }
+
+    .height-cover {
+        height: 60px;
+    }
+}
+
+
+
